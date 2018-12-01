@@ -18,3 +18,4 @@ FOUNDATION_EXPORT const unsigned char libde265VersionString[];
 
 
 #import <libde265/de265.h>
+#import <libde265/de265-version.h>
