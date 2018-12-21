@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "32DF30DE21B2A1C400DA3D8D"
-               BuildableName = "libde265_iOS.framework"
+               BuildableName = "libde265.framework"
                BlueprintName = "libde265-iOS"
                ReferencedContainer = "container:libde265.xcodeproj">
             </BuildableReference>
@@ -46,7 +46,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "32DF30DE21B2A1C400DA3D8D"
-            BuildableName = "libde265_iOS.framework"
+            BuildableName = "libde265.framework"
             BlueprintName = "libde265-iOS"
             ReferencedContainer = "container:libde265.xcodeproj">
          </BuildableReference>
@@ -64,7 +64,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "32DF30DE21B2A1C400DA3D8D"
-            BuildableName = "libde265_iOS.framework"
+            BuildableName = "libde265.framework"
             BlueprintName = "libde265-iOS"
             ReferencedContainer = "container:libde265.xcodeproj">
          </BuildableReference>
