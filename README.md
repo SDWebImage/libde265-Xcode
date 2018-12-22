@@ -23,10 +23,12 @@ github "SDWebImage/libde265-Xcode"
 
 ## Usage
 
+This library support HEVC(H.265) decoding. Check the [libde265's official site](https://www.libde265.org/) for more detail information.
+
 Use libde265 as you would normally, this is just a repo that adds an Xcode proj.
 
 ## License
 
-libde265 is available under the BSD-3 license. See [the LICENSE file](https://github.com/webmproject/libde265/blob/master/COPYING) for more info.
+libde265 is available under the GNU Lesser General Public License. See [the LICENSE file](https://github.com/strukturag/libde265/blob/master/COPYING) for more info.
 
 
