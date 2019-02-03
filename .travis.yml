@@ -23,9 +23,9 @@ script:
 
     - echo Build the framework
     - xcodebuild clean build -scheme 'libde265' -sdk macosx -configuration Debug | xcpretty -c
-    - xcodebuild clean build -scheme 'libde265' -sdk iphonesimulator PLATFORM_NAME=iphonesimulator -configuration Debug | xcpretty -c
-    - xcodebuild clean build -scheme 'libde265' -sdk appletvsimulator -configuration Debug | xcpretty -c
-    - xcodebuild clean build -scheme 'libde265' -sdk watchsimulator -configuration Debug | xcpretty -c
+    - xcodebuild clean build -scheme 'libde265-iOS' -sdk iphonesimulator PLATFORM_NAME=iphonesimulator -configuration Debug | xcpretty -c
+    - xcodebuild clean build -scheme 'libde265-tvOS' -sdk appletvsimulator -configuration Debug | xcpretty -c
+    - xcodebuild clean build -scheme 'libde265-watchOS' -sdk watchsimulator -configuration Debug | xcpretty -c
 
     - echo Build the example app
     - xcodebuild build -scheme 'libde265Example' -sdk macosx -configuration Debug | xcpretty -c
