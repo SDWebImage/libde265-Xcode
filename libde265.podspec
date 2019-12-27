@@ -41,11 +41,11 @@ It is written from scratch and has a plain C API to enable a simple integration 
                       cp './libde265/de265-version.h.in' './libde265/de265-version.h'
                       sed -i.bak 's/@NUMERIC_VERSION@/0x01000400/g' './libde265/de265-version.h'
                       sed -i.bak 's/@PACKAGE_VERSION@/1.0.4/g' './libde265/de265-version.h'
+                      sed -i.bak 's/<libde265\\/de265-version.h>/"de265-version.h"/g' './libde265/de265.h'
                       CMD
   s.xcconfig = {
     'GCC_PREPROCESSOR_DEFINITIONS' => '$(inherited) HAVE_POSIX_MEMALIGN=1',
-    'HEADER_SEARCH_PATHS' => '$(inherited) ${PODS_ROOT}/libde265/ ${PODS_TARGET_SRCROOT}/ ${PODS_ROOT}/libde265/libde265 ${PODS_TARGET_SRCROOT}/libde265',
-    'USE_HEADERMAP' => 'NO' # This cause header with same name conflict
+    'HEADER_SEARCH_PATHS' => '$(inherited) ${PODS_ROOT}/libde265/ ${PODS_TARGET_SRCROOT}/ ${PODS_ROOT}/libde265/libde265 ${PODS_TARGET_SRCROOT}/libde265'
   }
   s.preserve_path = 'libde265'
   s.libraries = 'c++'
