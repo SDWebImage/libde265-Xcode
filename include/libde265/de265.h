@@ -22,11 +22,11 @@
 #ifndef DE265_H
 #define DE265_H
 
+#include <libde265/de265-version.h>
+
 #ifdef __cplusplus
 extern "C" {
 #endif
-
-#include <libde265/de265-version.h>
 
 //#define inline static __inline
 

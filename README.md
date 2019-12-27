@@ -44,7 +44,7 @@ libde265 is available through [Swift Package Manager](https://swift.org/package-
 ```swift
 let package = Package(
     dependencies: [
-        .package(url: "https://github.com/SDWebImage/libde265.git", from: "1.0.4")
+        .package(url: "https://github.com/SDWebImage/libde265-Xcode.git", from: "1.0.4")
     ]
 )
 ```
