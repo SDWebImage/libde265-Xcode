@@ -7,20 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		32BF9BF321CCF6C100056EB2 /* de265-version.h in Headers */ = {isa = PBXBuildFile; fileRef = 32DF29A921B2967900DA3D8D /* de265-version.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		32BF9BF421CCF6C200056EB2 /* de265-version.h in Headers */ = {isa = PBXBuildFile; fileRef = 32DF29A921B2967900DA3D8D /* de265-version.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		32BF9BF521CCF6C200056EB2 /* de265-version.h in Headers */ = {isa = PBXBuildFile; fileRef = 32DF29A921B2967900DA3D8D /* de265-version.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		32B35E5D23B5EE0E008A3B8E /* de265.h in Headers */ = {isa = PBXBuildFile; fileRef = 32B35E5B23B5EE0D008A3B8E /* de265.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		32B35E5E23B5EE0E008A3B8E /* de265.h in Headers */ = {isa = PBXBuildFile; fileRef = 32B35E5B23B5EE0D008A3B8E /* de265.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		32B35E5F23B5EE0E008A3B8E /* de265.h in Headers */ = {isa = PBXBuildFile; fileRef = 32B35E5B23B5EE0D008A3B8E /* de265.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		32B35E6023B5EE0E008A3B8E /* de265.h in Headers */ = {isa = PBXBuildFile; fileRef = 32B35E5B23B5EE0D008A3B8E /* de265.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		32B35E6123B5EE0E008A3B8E /* de265-version.h in Headers */ = {isa = PBXBuildFile; fileRef = 32B35E5C23B5EE0D008A3B8E /* de265-version.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		32B35E6223B5EE0E008A3B8E /* de265-version.h in Headers */ = {isa = PBXBuildFile; fileRef = 32B35E5C23B5EE0D008A3B8E /* de265-version.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		32B35E6323B5EE0E008A3B8E /* de265-version.h in Headers */ = {isa = PBXBuildFile; fileRef = 32B35E5C23B5EE0D008A3B8E /* de265-version.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		32B35E6423B5EE0E008A3B8E /* de265-version.h in Headers */ = {isa = PBXBuildFile; fileRef = 32B35E5C23B5EE0D008A3B8E /* de265-version.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		32BF9BF621CCF6C900056EB2 /* libde265.h in Headers */ = {isa = PBXBuildFile; fileRef = 32DF287B21B28F5700DA3D8D /* libde265.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		32BF9BF721CCF6C900056EB2 /* libde265.h in Headers */ = {isa = PBXBuildFile; fileRef = 32DF287B21B28F5700DA3D8D /* libde265.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		32BF9BF821CCF6CA00056EB2 /* libde265.h in Headers */ = {isa = PBXBuildFile; fileRef = 32DF287B21B28F5700DA3D8D /* libde265.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		32DF287D21B28F5700DA3D8D /* libde265.h in Headers */ = {isa = PBXBuildFile; fileRef = 32DF287B21B28F5700DA3D8D /* libde265.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		32DF29A321B28FBA00DA3D8D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 32DF29A221B28FBA00DA3D8D /* main.m */; };
 		32DF29A821B28FBF00DA3D8D /* libde265.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32DF286D21B28EE000DA3D8D /* libde265.framework */; };
-		32DF29AA21B2967900DA3D8D /* de265-version.h in Headers */ = {isa = PBXBuildFile; fileRef = 32DF29A921B2967900DA3D8D /* de265-version.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		32DF302321B2993D00DA3D8D /* alloc_pool.h in Headers */ = {isa = PBXBuildFile; fileRef = 32DF2F4A21B2993D00DA3D8D /* alloc_pool.h */; };
 		32DF302421B2993D00DA3D8D /* deblock.h in Headers */ = {isa = PBXBuildFile; fileRef = 32DF2F4B21B2993D00DA3D8D /* deblock.h */; };
 		32DF302521B2993D00DA3D8D /* pps.h in Headers */ = {isa = PBXBuildFile; fileRef = 32DF2F4C21B2993D00DA3D8D /* pps.h */; };
-		32DF302621B2993D00DA3D8D /* de265.h in Headers */ = {isa = PBXBuildFile; fileRef = 32DF2F4D21B2993D00DA3D8D /* de265.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		32DF302721B2993D00DA3D8D /* quality.cc in Sources */ = {isa = PBXBuildFile; fileRef = 32DF2F4E21B2993D00DA3D8D /* quality.cc */; };
 		32DF302821B2993D00DA3D8D /* sei.h in Headers */ = {isa = PBXBuildFile; fileRef = 32DF2F4F21B2993D00DA3D8D /* sei.h */; };
 		32DF302921B2993D00DA3D8D /* pps.cc in Sources */ = {isa = PBXBuildFile; fileRef = 32DF2F5021B2993D00DA3D8D /* pps.cc */; };
@@ -136,7 +139,6 @@
 		32DF310121B2A24300DA3D8D /* alloc_pool.h in Headers */ = {isa = PBXBuildFile; fileRef = 32DF2F4A21B2993D00DA3D8D /* alloc_pool.h */; };
 		32DF310221B2A24300DA3D8D /* deblock.h in Headers */ = {isa = PBXBuildFile; fileRef = 32DF2F4B21B2993D00DA3D8D /* deblock.h */; };
 		32DF310321B2A24300DA3D8D /* pps.h in Headers */ = {isa = PBXBuildFile; fileRef = 32DF2F4C21B2993D00DA3D8D /* pps.h */; };
-		32DF310421B2A24300DA3D8D /* de265.h in Headers */ = {isa = PBXBuildFile; fileRef = 32DF2F4D21B2993D00DA3D8D /* de265.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		32DF310521B2A24300DA3D8D /* quality.cc in Sources */ = {isa = PBXBuildFile; fileRef = 32DF2F4E21B2993D00DA3D8D /* quality.cc */; };
 		32DF310621B2A24300DA3D8D /* sei.h in Headers */ = {isa = PBXBuildFile; fileRef = 32DF2F4F21B2993D00DA3D8D /* sei.h */; };
 		32DF310721B2A24300DA3D8D /* pps.cc in Sources */ = {isa = PBXBuildFile; fileRef = 32DF2F5021B2993D00DA3D8D /* pps.cc */; };
@@ -205,7 +207,6 @@
 		32DF314621B2A24400DA3D8D /* alloc_pool.h in Headers */ = {isa = PBXBuildFile; fileRef = 32DF2F4A21B2993D00DA3D8D /* alloc_pool.h */; };
 		32DF314721B2A24400DA3D8D /* deblock.h in Headers */ = {isa = PBXBuildFile; fileRef = 32DF2F4B21B2993D00DA3D8D /* deblock.h */; };
 		32DF314821B2A24400DA3D8D /* pps.h in Headers */ = {isa = PBXBuildFile; fileRef = 32DF2F4C21B2993D00DA3D8D /* pps.h */; };
-		32DF314921B2A24400DA3D8D /* de265.h in Headers */ = {isa = PBXBuildFile; fileRef = 32DF2F4D21B2993D00DA3D8D /* de265.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		32DF314A21B2A24400DA3D8D /* quality.cc in Sources */ = {isa = PBXBuildFile; fileRef = 32DF2F4E21B2993D00DA3D8D /* quality.cc */; };
 		32DF314B21B2A24400DA3D8D /* sei.h in Headers */ = {isa = PBXBuildFile; fileRef = 32DF2F4F21B2993D00DA3D8D /* sei.h */; };
 		32DF314C21B2A24400DA3D8D /* pps.cc in Sources */ = {isa = PBXBuildFile; fileRef = 32DF2F5021B2993D00DA3D8D /* pps.cc */; };
@@ -274,7 +275,6 @@
 		32DF318B21B2A24400DA3D8D /* alloc_pool.h in Headers */ = {isa = PBXBuildFile; fileRef = 32DF2F4A21B2993D00DA3D8D /* alloc_pool.h */; };
 		32DF318C21B2A24400DA3D8D /* deblock.h in Headers */ = {isa = PBXBuildFile; fileRef = 32DF2F4B21B2993D00DA3D8D /* deblock.h */; };
 		32DF318D21B2A24400DA3D8D /* pps.h in Headers */ = {isa = PBXBuildFile; fileRef = 32DF2F4C21B2993D00DA3D8D /* pps.h */; };
-		32DF318E21B2A24400DA3D8D /* de265.h in Headers */ = {isa = PBXBuildFile; fileRef = 32DF2F4D21B2993D00DA3D8D /* de265.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		32DF318F21B2A24400DA3D8D /* quality.cc in Sources */ = {isa = PBXBuildFile; fileRef = 32DF2F4E21B2993D00DA3D8D /* quality.cc */; };
 		32DF319021B2A24400DA3D8D /* sei.h in Headers */ = {isa = PBXBuildFile; fileRef = 32DF2F4F21B2993D00DA3D8D /* sei.h */; };
 		32DF319121B2A24400DA3D8D /* pps.cc in Sources */ = {isa = PBXBuildFile; fileRef = 32DF2F5021B2993D00DA3D8D /* pps.cc */; };
@@ -484,16 +484,16 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		32B35E5B23B5EE0D008A3B8E /* de265.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = de265.h; sourceTree = "<group>"; };
+		32B35E5C23B5EE0D008A3B8E /* de265-version.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "de265-version.h"; sourceTree = "<group>"; };
 		32DF286D21B28EE000DA3D8D /* libde265.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = libde265.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		32DF287B21B28F5700DA3D8D /* libde265.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = libde265.h; sourceTree = "<group>"; };
 		32DF287C21B28F5700DA3D8D /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		32DF29A021B28FBA00DA3D8D /* libde265Example */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = libde265Example; sourceTree = BUILT_PRODUCTS_DIR; };
 		32DF29A221B28FBA00DA3D8D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		32DF29A921B2967900DA3D8D /* de265-version.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "de265-version.h"; sourceTree = "<group>"; };
 		32DF2F4A21B2993D00DA3D8D /* alloc_pool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = alloc_pool.h; sourceTree = "<group>"; };
 		32DF2F4B21B2993D00DA3D8D /* deblock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = deblock.h; sourceTree = "<group>"; };
 		32DF2F4C21B2993D00DA3D8D /* pps.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pps.h; sourceTree = "<group>"; };
-		32DF2F4D21B2993D00DA3D8D /* de265.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = de265.h; sourceTree = "<group>"; };
 		32DF2F4E21B2993D00DA3D8D /* quality.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = quality.cc; sourceTree = "<group>"; };
 		32DF2F4F21B2993D00DA3D8D /* sei.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sei.h; sourceTree = "<group>"; };
 		32DF2F5021B2993D00DA3D8D /* pps.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = pps.cc; sourceTree = "<group>"; };
@@ -653,10 +653,28 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		32B35E5923B5EE0D008A3B8E /* include */ = {
+			isa = PBXGroup;
+			children = (
+				32B35E5A23B5EE0D008A3B8E /* libde265 */,
+			);
+			path = include;
+			sourceTree = "<group>";
+		};
+		32B35E5A23B5EE0D008A3B8E /* libde265 */ = {
+			isa = PBXGroup;
+			children = (
+				32B35E5B23B5EE0D008A3B8E /* de265.h */,
+				32B35E5C23B5EE0D008A3B8E /* de265-version.h */,
+			);
+			path = libde265;
+			sourceTree = "<group>";
+		};
 		32DF286321B28EE000DA3D8D = {
 			isa = PBXGroup;
 			children = (
 				32DF2F2B21B2993D00DA3D8D /* libde265 */,
+				32B35E5923B5EE0D008A3B8E /* include */,
 				32DF287821B28F2200DA3D8D /* Xcode */,
 				32DF29A121B28FBA00DA3D8D /* libde265Example */,
 				32DF286E21B28EE000DA3D8D /* Products */,
@@ -681,7 +699,6 @@
 			children = (
 				32DF287C21B28F5700DA3D8D /* Info.plist */,
 				32DF287B21B28F5700DA3D8D /* libde265.h */,
-				32DF29A921B2967900DA3D8D /* de265-version.h */,
 			);
 			path = Xcode;
 			sourceTree = "<group>";
@@ -715,7 +732,6 @@
 				32DF2F4A21B2993D00DA3D8D /* alloc_pool.h */,
 				32DF2F4B21B2993D00DA3D8D /* deblock.h */,
 				32DF2F4C21B2993D00DA3D8D /* pps.h */,
-				32DF2F4D21B2993D00DA3D8D /* de265.h */,
 				32DF2F4E21B2993D00DA3D8D /* quality.cc */,
 				32DF2F4F21B2993D00DA3D8D /* sei.h */,
 				32DF2F5021B2993D00DA3D8D /* pps.cc */,
@@ -876,13 +892,13 @@
 				32DF307221B2993E00DA3D8D /* slice.h in Headers */,
 				32DF302C21B2993D00DA3D8D /* nal.h in Headers */,
 				32DF302821B2993D00DA3D8D /* sei.h in Headers */,
+				32B35E5D23B5EE0E008A3B8E /* de265.h in Headers */,
 				32DF308221B2993E00DA3D8D /* nal-parser.h in Headers */,
 				32DF309821B2993E00DA3D8D /* contextmodel.h in Headers */,
 				32DF305D21B2993D00DA3D8D /* tb-transform.h in Headers */,
 				32DF306221B2993D00DA3D8D /* cb-split.h in Headers */,
 				32DF303B21B2993D00DA3D8D /* fallback-motion.h in Headers */,
 				32DF308B21B2993E00DA3D8D /* sse-dct.h in Headers */,
-				32DF302621B2993D00DA3D8D /* de265.h in Headers */,
 				32DF306C21B2993E00DA3D8D /* encoder-context.h in Headers */,
 				32DF309221B2993E00DA3D8D /* vui.h in Headers */,
 				32DF307421B2993E00DA3D8D /* decctx.h in Headers */,
@@ -924,10 +940,10 @@
 				32DF302B21B2993D00DA3D8D /* sps.h in Headers */,
 				32DF307021B2993E00DA3D8D /* quality.h in Headers */,
 				32DF303421B2993D00DA3D8D /* vps.h in Headers */,
-				32DF29AA21B2967900DA3D8D /* de265-version.h in Headers */,
 				32DF303921B2993D00DA3D8D /* fallback.h in Headers */,
 				32DF304B21B2993D00DA3D8D /* cb-interpartmode.h in Headers */,
 				32DF308321B2993E00DA3D8D /* refpic.h in Headers */,
+				32B35E6123B5EE0E008A3B8E /* de265-version.h in Headers */,
 				32DF307121B2993E00DA3D8D /* md5.h in Headers */,
 				32DF287D21B28F5700DA3D8D /* libde265.h in Headers */,
 				32DF307321B2993E00DA3D8D /* configparam.h in Headers */,
@@ -942,7 +958,6 @@
 			files = (
 				32DF313321B2A24300DA3D8D /* bitstream.h in Headers */,
 				32DF311121B2A24300DA3D8D /* vps.h in Headers */,
-				32BF9BF321CCF6C100056EB2 /* de265-version.h in Headers */,
 				32DF310321B2A24300DA3D8D /* pps.h in Headers */,
 				32DF311E21B2A24300DA3D8D /* quality.h in Headers */,
 				32DF310121B2A24300DA3D8D /* alloc_pool.h in Headers */,
@@ -960,6 +975,7 @@
 				32DF313021B2A24300DA3D8D /* refpic.h in Headers */,
 				32DF313921B2A24300DA3D8D /* util.h in Headers */,
 				32DF311721B2A24300DA3D8D /* fallback-motion.h in Headers */,
+				32B35E5E23B5EE0E008A3B8E /* de265.h in Headers */,
 				32DF31ED21B2A25C00DA3D8D /* encoder-context.h in Headers */,
 				32BF9BF621CCF6C900056EB2 /* libde265.h in Headers */,
 				32DF322021B2A26200DA3D8D /* tb-transform.h in Headers */,
@@ -972,6 +988,7 @@
 				32DF321021B2A26200DA3D8D /* cb-interpartmode.h in Headers */,
 				32DF31E321B2A25C00DA3D8D /* encoder-core.h in Headers */,
 				32DF312521B2A24300DA3D8D /* fallback-dct.h in Headers */,
+				32B35E6223B5EE0E008A3B8E /* de265-version.h in Headers */,
 				32DF31EA21B2A25C00DA3D8D /* sop.h in Headers */,
 				32DF312821B2A24300DA3D8D /* dpb.h in Headers */,
 				32DF314521B2A24300DA3D8D /* scan.h in Headers */,
@@ -995,7 +1012,6 @@
 				32DF312021B2A24300DA3D8D /* slice.h in Headers */,
 				32DF311021B2A24300DA3D8D /* intrapred.h in Headers */,
 				32DF312421B2A24300DA3D8D /* threads.h in Headers */,
-				32DF310421B2A24300DA3D8D /* de265.h in Headers */,
 				32DF321C21B2A26200DA3D8D /* cb-mergeindex.h in Headers */,
 				32DF31EC21B2A25C00DA3D8D /* encoder-types.h in Headers */,
 			);
@@ -1007,7 +1023,6 @@
 			files = (
 				32DF317821B2A24400DA3D8D /* bitstream.h in Headers */,
 				32DF315621B2A24400DA3D8D /* vps.h in Headers */,
-				32BF9BF421CCF6C200056EB2 /* de265-version.h in Headers */,
 				32DF314821B2A24400DA3D8D /* pps.h in Headers */,
 				32DF316321B2A24400DA3D8D /* quality.h in Headers */,
 				32DF314621B2A24400DA3D8D /* alloc_pool.h in Headers */,
@@ -1025,6 +1040,7 @@
 				32DF317521B2A24400DA3D8D /* refpic.h in Headers */,
 				32DF317E21B2A24400DA3D8D /* util.h in Headers */,
 				32DF315C21B2A24400DA3D8D /* fallback-motion.h in Headers */,
+				32B35E5F23B5EE0E008A3B8E /* de265.h in Headers */,
 				32DF31FB21B2A25D00DA3D8D /* encoder-context.h in Headers */,
 				32BF9BF721CCF6C900056EB2 /* libde265.h in Headers */,
 				32DF323B21B2A26300DA3D8D /* tb-transform.h in Headers */,
@@ -1037,6 +1053,7 @@
 				32DF322B21B2A26300DA3D8D /* cb-interpartmode.h in Headers */,
 				32DF31F121B2A25D00DA3D8D /* encoder-core.h in Headers */,
 				32DF316A21B2A24400DA3D8D /* fallback-dct.h in Headers */,
+				32B35E6323B5EE0E008A3B8E /* de265-version.h in Headers */,
 				32DF31F821B2A25D00DA3D8D /* sop.h in Headers */,
 				32DF316D21B2A24400DA3D8D /* dpb.h in Headers */,
 				32DF318A21B2A24400DA3D8D /* scan.h in Headers */,
@@ -1060,7 +1077,6 @@
 				32DF316521B2A24400DA3D8D /* slice.h in Headers */,
 				32DF315521B2A24400DA3D8D /* intrapred.h in Headers */,
 				32DF316921B2A24400DA3D8D /* threads.h in Headers */,
-				32DF314921B2A24400DA3D8D /* de265.h in Headers */,
 				32DF323721B2A26300DA3D8D /* cb-mergeindex.h in Headers */,
 				32DF31FA21B2A25D00DA3D8D /* encoder-types.h in Headers */,
 			);
@@ -1072,7 +1088,6 @@
 			files = (
 				32DF31BD21B2A24500DA3D8D /* bitstream.h in Headers */,
 				32DF319B21B2A24400DA3D8D /* vps.h in Headers */,
-				32BF9BF521CCF6C200056EB2 /* de265-version.h in Headers */,
 				32DF318D21B2A24400DA3D8D /* pps.h in Headers */,
 				32DF31A821B2A24500DA3D8D /* quality.h in Headers */,
 				32DF318B21B2A24400DA3D8D /* alloc_pool.h in Headers */,
@@ -1090,6 +1105,7 @@
 				32DF31BA21B2A24500DA3D8D /* refpic.h in Headers */,
 				32DF31C321B2A24500DA3D8D /* util.h in Headers */,
 				32DF31A121B2A24500DA3D8D /* fallback-motion.h in Headers */,
+				32B35E6023B5EE0E008A3B8E /* de265.h in Headers */,
 				32DF320921B2A25D00DA3D8D /* encoder-context.h in Headers */,
 				32BF9BF821CCF6CA00056EB2 /* libde265.h in Headers */,
 				32DF325621B2A26300DA3D8D /* tb-transform.h in Headers */,
@@ -1102,6 +1118,7 @@
 				32DF324621B2A26300DA3D8D /* cb-interpartmode.h in Headers */,
 				32DF31FF21B2A25D00DA3D8D /* encoder-core.h in Headers */,
 				32DF31AF21B2A24500DA3D8D /* fallback-dct.h in Headers */,
+				32B35E6423B5EE0E008A3B8E /* de265-version.h in Headers */,
 				32DF320621B2A25D00DA3D8D /* sop.h in Headers */,
 				32DF31B221B2A24500DA3D8D /* dpb.h in Headers */,
 				32DF31CF21B2A24500DA3D8D /* scan.h in Headers */,
@@ -1125,7 +1142,6 @@
 				32DF31AA21B2A24500DA3D8D /* slice.h in Headers */,
 				32DF319A21B2A24400DA3D8D /* intrapred.h in Headers */,
 				32DF31AE21B2A24500DA3D8D /* threads.h in Headers */,
-				32DF318E21B2A24400DA3D8D /* de265.h in Headers */,
 				32DF325221B2A26300DA3D8D /* cb-mergeindex.h in Headers */,
 				32DF320821B2A25D00DA3D8D /* encoder-types.h in Headers */,
 			);
