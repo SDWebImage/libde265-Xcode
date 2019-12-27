@@ -4,6 +4,7 @@
 [![Version](https://img.shields.io/cocoapods/v/libde265.svg?style=flat)](http://cocoapods.org/pods/libde265)
 [![License](https://img.shields.io/cocoapods/l/libde265.svg?style=flat)](http://cocoapods.org/pods/libde265)
 [![Platform](https://img.shields.io/cocoapods/p/libde265.svg?style=flat)](http://cocoapods.org/pods/libde265)
+[![SwiftPM compatible](https://img.shields.io/badge/SwiftPM-compatible-brightgreen.svg?style=flat)](https://swift.org/package-manager/)
 [![Carthage compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)](https://github.com/SDWebImage/libde265-Xcode)
 
 A wrapper for [libde265](https://github.com/strukturag/libde265) + Xcode project.
@@ -34,6 +35,18 @@ libde265 is available through [CocoaPods](https://github.com/CocoaPods/CocoaPods
 
 ```
 pod 'libde265'
+```
+
+#### Swift Package Manager (Xcode 11+)
+
+libde265 is available through [Swift Package Manager](https://swift.org/package-manager).
+
+```swift
+let package = Package(
+    dependencies: [
+        .package(url: "https://github.com/SDWebImage/libde265.git", from: "1.0.4")
+    ]
+)
 ```
 
 ## Usage
