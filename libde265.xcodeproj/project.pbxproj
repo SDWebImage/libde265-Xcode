@@ -7,6 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		32A272A223D4319A00C1ACED /* encoder-intrapred.cc in Sources */ = {isa = PBXBuildFile; fileRef = 32A2729E23D4319A00C1ACED /* encoder-intrapred.cc */; };
+		32A272A323D4319A00C1ACED /* encoder-intrapred.cc in Sources */ = {isa = PBXBuildFile; fileRef = 32A2729E23D4319A00C1ACED /* encoder-intrapred.cc */; };
+		32A272A423D4319A00C1ACED /* encoder-intrapred.cc in Sources */ = {isa = PBXBuildFile; fileRef = 32A2729E23D4319A00C1ACED /* encoder-intrapred.cc */; };
+		32A272A523D4319A00C1ACED /* encoder-intrapred.cc in Sources */ = {isa = PBXBuildFile; fileRef = 32A2729E23D4319A00C1ACED /* encoder-intrapred.cc */; };
+		32A272A623D4319A00C1ACED /* encoder-intrapred.h in Headers */ = {isa = PBXBuildFile; fileRef = 32A2729F23D4319A00C1ACED /* encoder-intrapred.h */; };
+		32A272A723D4319A00C1ACED /* encoder-intrapred.h in Headers */ = {isa = PBXBuildFile; fileRef = 32A2729F23D4319A00C1ACED /* encoder-intrapred.h */; };
+		32A272A823D4319A00C1ACED /* encoder-intrapred.h in Headers */ = {isa = PBXBuildFile; fileRef = 32A2729F23D4319A00C1ACED /* encoder-intrapred.h */; };
+		32A272A923D4319A00C1ACED /* encoder-intrapred.h in Headers */ = {isa = PBXBuildFile; fileRef = 32A2729F23D4319A00C1ACED /* encoder-intrapred.h */; };
+		32A272AA23D4319A00C1ACED /* encoder-motion.cc in Sources */ = {isa = PBXBuildFile; fileRef = 32A272A023D4319A00C1ACED /* encoder-motion.cc */; };
+		32A272AB23D4319A00C1ACED /* encoder-motion.cc in Sources */ = {isa = PBXBuildFile; fileRef = 32A272A023D4319A00C1ACED /* encoder-motion.cc */; };
+		32A272AC23D4319A00C1ACED /* encoder-motion.cc in Sources */ = {isa = PBXBuildFile; fileRef = 32A272A023D4319A00C1ACED /* encoder-motion.cc */; };
+		32A272AD23D4319A00C1ACED /* encoder-motion.cc in Sources */ = {isa = PBXBuildFile; fileRef = 32A272A023D4319A00C1ACED /* encoder-motion.cc */; };
+		32A272AE23D4319A00C1ACED /* encoder-motion.h in Headers */ = {isa = PBXBuildFile; fileRef = 32A272A123D4319A00C1ACED /* encoder-motion.h */; };
+		32A272AF23D4319A00C1ACED /* encoder-motion.h in Headers */ = {isa = PBXBuildFile; fileRef = 32A272A123D4319A00C1ACED /* encoder-motion.h */; };
+		32A272B023D4319A00C1ACED /* encoder-motion.h in Headers */ = {isa = PBXBuildFile; fileRef = 32A272A123D4319A00C1ACED /* encoder-motion.h */; };
+		32A272B123D4319A00C1ACED /* encoder-motion.h in Headers */ = {isa = PBXBuildFile; fileRef = 32A272A123D4319A00C1ACED /* encoder-motion.h */; };
 		32B35E5D23B5EE0E008A3B8E /* de265.h in Headers */ = {isa = PBXBuildFile; fileRef = 32B35E5B23B5EE0D008A3B8E /* de265.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		32B35E5E23B5EE0E008A3B8E /* de265.h in Headers */ = {isa = PBXBuildFile; fileRef = 32B35E5B23B5EE0D008A3B8E /* de265.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		32B35E5F23B5EE0E008A3B8E /* de265.h in Headers */ = {isa = PBXBuildFile; fileRef = 32B35E5B23B5EE0D008A3B8E /* de265.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -484,6 +500,10 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		32A2729E23D4319A00C1ACED /* encoder-intrapred.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "encoder-intrapred.cc"; sourceTree = "<group>"; };
+		32A2729F23D4319A00C1ACED /* encoder-intrapred.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "encoder-intrapred.h"; sourceTree = "<group>"; };
+		32A272A023D4319A00C1ACED /* encoder-motion.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "encoder-motion.cc"; sourceTree = "<group>"; };
+		32A272A123D4319A00C1ACED /* encoder-motion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "encoder-motion.h"; sourceTree = "<group>"; };
 		32B35E5B23B5EE0D008A3B8E /* de265.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = de265.h; sourceTree = "<group>"; };
 		32B35E5C23B5EE0D008A3B8E /* de265-version.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "de265-version.h"; sourceTree = "<group>"; };
 		32DF286D21B28EE000DA3D8D /* libde265.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = libde265.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -822,6 +842,10 @@
 				32DF2F9521B2993D00DA3D8D /* encoder-context.h */,
 				32DF2F9721B2993D00DA3D8D /* encoder-types.cc */,
 				32DF2F9821B2993D00DA3D8D /* encoder-syntax.cc */,
+				32A2729E23D4319A00C1ACED /* encoder-intrapred.cc */,
+				32A2729F23D4319A00C1ACED /* encoder-intrapred.h */,
+				32A272A023D4319A00C1ACED /* encoder-motion.cc */,
+				32A272A123D4319A00C1ACED /* encoder-motion.h */,
 			);
 			path = encoder;
 			sourceTree = "<group>";
@@ -898,6 +922,7 @@
 				32DF305D21B2993D00DA3D8D /* tb-transform.h in Headers */,
 				32DF306221B2993D00DA3D8D /* cb-split.h in Headers */,
 				32DF303B21B2993D00DA3D8D /* fallback-motion.h in Headers */,
+				32A272AE23D4319A00C1ACED /* encoder-motion.h in Headers */,
 				32DF308B21B2993E00DA3D8D /* sse-dct.h in Headers */,
 				32DF306C21B2993E00DA3D8D /* encoder-context.h in Headers */,
 				32DF309221B2993E00DA3D8D /* vui.h in Headers */,
@@ -927,6 +952,7 @@
 				32DF309521B2993E00DA3D8D /* util.h in Headers */,
 				32DF309321B2993E00DA3D8D /* transform.h in Headers */,
 				32DF30A921B2993E00DA3D8D /* scan.h in Headers */,
+				32A272A623D4319A00C1ACED /* encoder-intrapred.h in Headers */,
 				32DF303221B2993D00DA3D8D /* intrapred.h in Headers */,
 				32DF308021B2993E00DA3D8D /* motion.h in Headers */,
 				32DF309121B2993E00DA3D8D /* sse.h in Headers */,
@@ -997,6 +1023,7 @@
 				32DF313121B2A24300DA3D8D /* sao.h in Headers */,
 				32DF310921B2A24300DA3D8D /* sps.h in Headers */,
 				32DF312A21B2A24300DA3D8D /* acceleration.h in Headers */,
+				32A272AF23D4319A00C1ACED /* encoder-motion.h in Headers */,
 				32DF312221B2A24300DA3D8D /* decctx.h in Headers */,
 				32DF314321B2A24300DA3D8D /* image.h in Headers */,
 				32DF321F21B2A26200DA3D8D /* tb-rateestim.h in Headers */,
@@ -1014,6 +1041,7 @@
 				32DF312421B2A24300DA3D8D /* threads.h in Headers */,
 				32DF321C21B2A26200DA3D8D /* cb-mergeindex.h in Headers */,
 				32DF31EC21B2A25C00DA3D8D /* encoder-types.h in Headers */,
+				32A272A723D4319A00C1ACED /* encoder-intrapred.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1062,6 +1090,7 @@
 				32DF317621B2A24400DA3D8D /* sao.h in Headers */,
 				32DF314E21B2A24400DA3D8D /* sps.h in Headers */,
 				32DF316F21B2A24400DA3D8D /* acceleration.h in Headers */,
+				32A272B023D4319A00C1ACED /* encoder-motion.h in Headers */,
 				32DF316721B2A24400DA3D8D /* decctx.h in Headers */,
 				32DF318821B2A24400DA3D8D /* image.h in Headers */,
 				32DF323A21B2A26300DA3D8D /* tb-rateestim.h in Headers */,
@@ -1079,6 +1108,7 @@
 				32DF316921B2A24400DA3D8D /* threads.h in Headers */,
 				32DF323721B2A26300DA3D8D /* cb-mergeindex.h in Headers */,
 				32DF31FA21B2A25D00DA3D8D /* encoder-types.h in Headers */,
+				32A272A823D4319A00C1ACED /* encoder-intrapred.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1127,6 +1157,7 @@
 				32DF31BB21B2A24500DA3D8D /* sao.h in Headers */,
 				32DF319321B2A24400DA3D8D /* sps.h in Headers */,
 				32DF31B421B2A24500DA3D8D /* acceleration.h in Headers */,
+				32A272B123D4319A00C1ACED /* encoder-motion.h in Headers */,
 				32DF31AC21B2A24500DA3D8D /* decctx.h in Headers */,
 				32DF31CD21B2A24500DA3D8D /* image.h in Headers */,
 				32DF325521B2A26300DA3D8D /* tb-rateestim.h in Headers */,
@@ -1144,6 +1175,7 @@
 				32DF31AE21B2A24500DA3D8D /* threads.h in Headers */,
 				32DF325221B2A26300DA3D8D /* cb-mergeindex.h in Headers */,
 				32DF320821B2A25D00DA3D8D /* encoder-types.h in Headers */,
+				32A272A923D4319A00C1ACED /* encoder-intrapred.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1371,12 +1403,14 @@
 				32DF306721B2993E00DA3D8D /* encpicbuf.cc in Sources */,
 				32DF304321B2993D00DA3D8D /* encoder-core.cc in Sources */,
 				32DF304621B2993D00DA3D8D /* coding-options.cc in Sources */,
+				32A272AA23D4319A00C1ACED /* encoder-motion.cc in Sources */,
 				32DF302F21B2993D00DA3D8D /* sei.cc in Sources */,
 				32DF309721B2993E00DA3D8D /* nal.cc in Sources */,
 				32DF303C21B2993D00DA3D8D /* de265.cc in Sources */,
 				32DF305F21B2993D00DA3D8D /* cb-skip.cc in Sources */,
 				32DF309B21B2993E00DA3D8D /* intrapred.cc in Sources */,
 				32DF307821B2993E00DA3D8D /* deblock.cc in Sources */,
+				32A272A223D4319A00C1ACED /* encoder-intrapred.cc in Sources */,
 				32DF305B21B2993D00DA3D8D /* cb-intrapartmode.cc in Sources */,
 				32DF304D21B2993D00DA3D8D /* tb-intrapredmode.cc in Sources */,
 				32DF304721B2993D00DA3D8D /* algo.cc in Sources */,
@@ -1404,6 +1438,7 @@
 				32DF31E721B2A25C00DA3D8D /* encoder-context.cc in Sources */,
 				32DF322121B2A26200DA3D8D /* ctb-qscale.cc in Sources */,
 				32DF322621B2A26200DA3D8D /* tb-rateestim.cc in Sources */,
+				32A272A323D4319A00C1ACED /* encoder-intrapred.cc in Sources */,
 				32DF310D21B2A24300DA3D8D /* sei.cc in Sources */,
 				32DF321321B2A26200DA3D8D /* pb-mv.cc in Sources */,
 				32DF31EE21B2A25C00DA3D8D /* encoder-types.cc in Sources */,
@@ -1435,6 +1470,7 @@
 				32DF313B21B2A24300DA3D8D /* nal.cc in Sources */,
 				32DF311221B2A24300DA3D8D /* en265.cc in Sources */,
 				32DF310E21B2A24300DA3D8D /* md5.cc in Sources */,
+				32A272AB23D4319A00C1ACED /* encoder-motion.cc in Sources */,
 				32DF312721B2A24300DA3D8D /* scan.cc in Sources */,
 				32DF321221B2A26200DA3D8D /* tb-intrapredmode.cc in Sources */,
 				32DF310721B2A24300DA3D8D /* pps.cc in Sources */,
@@ -1467,6 +1503,7 @@
 				32DF31F521B2A25D00DA3D8D /* encoder-context.cc in Sources */,
 				32DF323C21B2A26300DA3D8D /* ctb-qscale.cc in Sources */,
 				32DF324121B2A26300DA3D8D /* tb-rateestim.cc in Sources */,
+				32A272A423D4319A00C1ACED /* encoder-intrapred.cc in Sources */,
 				32DF315221B2A24400DA3D8D /* sei.cc in Sources */,
 				32DF322E21B2A26300DA3D8D /* pb-mv.cc in Sources */,
 				32DF31FC21B2A25D00DA3D8D /* encoder-types.cc in Sources */,
@@ -1498,6 +1535,7 @@
 				32DF318021B2A24400DA3D8D /* nal.cc in Sources */,
 				32DF315721B2A24400DA3D8D /* en265.cc in Sources */,
 				32DF315321B2A24400DA3D8D /* md5.cc in Sources */,
+				32A272AC23D4319A00C1ACED /* encoder-motion.cc in Sources */,
 				32DF316C21B2A24400DA3D8D /* scan.cc in Sources */,
 				32DF322D21B2A26300DA3D8D /* tb-intrapredmode.cc in Sources */,
 				32DF314C21B2A24400DA3D8D /* pps.cc in Sources */,
@@ -1530,6 +1568,7 @@
 				32DF320321B2A25D00DA3D8D /* encoder-context.cc in Sources */,
 				32DF325721B2A26300DA3D8D /* ctb-qscale.cc in Sources */,
 				32DF325C21B2A26300DA3D8D /* tb-rateestim.cc in Sources */,
+				32A272A523D4319A00C1ACED /* encoder-intrapred.cc in Sources */,
 				32DF319721B2A24400DA3D8D /* sei.cc in Sources */,
 				32DF324921B2A26300DA3D8D /* pb-mv.cc in Sources */,
 				32DF320A21B2A25D00DA3D8D /* encoder-types.cc in Sources */,
@@ -1561,6 +1600,7 @@
 				32DF31C521B2A24500DA3D8D /* nal.cc in Sources */,
 				32DF319C21B2A24400DA3D8D /* en265.cc in Sources */,
 				32DF319821B2A24400DA3D8D /* md5.cc in Sources */,
+				32A272AD23D4319A00C1ACED /* encoder-motion.cc in Sources */,
 				32DF31B121B2A24500DA3D8D /* scan.cc in Sources */,
 				32DF324821B2A26300DA3D8D /* tb-intrapredmode.cc in Sources */,
 				32DF319121B2A24400DA3D8D /* pps.cc in Sources */,
