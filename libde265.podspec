@@ -28,7 +28,7 @@ It is written from scratch and has a plain C API to enable a simple integration 
   s.source           = { :git => 'https://github.com/strukturag/libde265.git', :tag => 'v' + s.version.to_s }
 
   s.ios.deployment_target = '8.0'
-  s.osx.deployment_target = '10.7'
+  s.osx.deployment_target = '10.10'
   s.tvos.deployment_target = '9.0'
   s.watchos.deployment_target = '2.0'
 

@@ -15,7 +15,7 @@ This repo also including the CocoaPods's spec file to use libde265 with the depe
 ## Requirements
 
 + iOS 8
-+ macOS 10.7
++ macOS 10.10
 + tvOS 9.0
 + watchOS 2.0
 
@@ -44,7 +44,7 @@ libde265 is available through [Swift Package Manager](https://swift.org/package-
 ```swift
 let package = Package(
     dependencies: [
-        .package(url: "https://github.com/SDWebImage/libde265-Xcode.git", from: "1.0.4")
+        .package(url: "https://github.com/SDWebImage/libde265-Xcode.git", from: "1.0.6")
     ]
 )
 ```
