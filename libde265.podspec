@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'libde265'
-  s.version          = '1.0.7'
+  s.version          = '1.0.8'
   s.summary          = 'Open h.265 video codec implementation.'
 
 # This description is used to generate tags and improve search results.
@@ -39,7 +39,7 @@ It is written from scratch and has a plain C API to enable a simple integration 
   # config the libde265 build version string in `de265_version.h`, update when bumped version
   s.prepare_command = <<-CMD
                       cp './libde265/de265-version.h.in' './libde265/de265-version.h'
-                      sed -i.bak 's/@NUMERIC_VERSION@/0x01000700/g' './libde265/de265-version.h'
+                      sed -i.bak 's/@NUMERIC_VERSION@/0x01000800/g' './libde265/de265-version.h'
                       sed -i.bak 's/@PACKAGE_VERSION@/#{s.version}/g' './libde265/de265-version.h'
                       sed -i.bak 's/<libde265\\/de265-version.h>/"de265-version.h"/g' './libde265/de265.h'
                       CMD
