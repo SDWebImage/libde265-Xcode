@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'libde265'
-  s.version          = '1.0.8'
+  s.version          = '1.0.9-beta'
   s.summary          = 'Open h.265 video codec implementation.'
 
 # This description is used to generate tags and improve search results.
@@ -25,7 +25,7 @@ It is written from scratch and has a plain C API to enable a simple integration 
   s.homepage         = 'https://www.libde265.org/'
   s.license          = { :type => 'LGPL' }
   s.author           = { 'Struktur AG' => 'farin@struktur.de' }
-  s.source           = { :git => 'https://github.com/strukturag/libde265.git', :tag => 'v' + s.version.to_s }
+  s.source           = { :git => 'https://github.com/strukturag/libde265.git', :commit => 'e587ef6e'}
 
   s.ios.deployment_target = '8.0'
   s.osx.deployment_target = '10.10'
