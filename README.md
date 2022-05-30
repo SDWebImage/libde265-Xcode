@@ -49,6 +49,11 @@ let package = Package(
 )
 ```
 
+## Note
+
+The `1.0.9-beta` version does not present in upstream [libde265 releases](https://github.com/strukturag/libde265/releases).
+We use the master `e587ef6e` SHA instead and fix some Xcode integration issues.
+
 ## Usage
 
 This library support HEVC(H.265) decoding. Check the [libde265's official site](https://www.libde265.org/) for more detail information.
