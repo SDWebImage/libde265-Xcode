@@ -1,0 +1,4 @@
+module libde265 [extern_c] {
+    umbrella header "libde265/de265.h"
+    export *
+}
