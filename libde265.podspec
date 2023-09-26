@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'libde265'
-  s.version          = '1.0.10'
+  s.version          = '1.0.11'
   s.summary          = 'Open h.265 video codec implementation.'
 
 # This description is used to generate tags and improve search results.
